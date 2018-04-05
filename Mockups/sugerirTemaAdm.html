@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse sinmargen">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">LearnersInTheMatch</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-user"></span> Beatriz Sanchez</a>
+                </li>
+                <li>
+                        <a><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-log-in"></span> Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="w3-sidebar w3-bar-block" id="panel" style="width:25%">
+        <a href="temasAdministrador.html" class="w3-bar-item w3-button">Principal</a>
+        <a href="sugerirTemaAdm.html" class="w3-bar-item w3-button">Agregar tema</a>
+    </div>
+    <div style="margin-left:25%">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Bienvenido administrador</h1>
+                <h2>En esta sección puedes sugerir temas de su interés</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <a class="fontP">Nombre del tema</a>
+                        </div>
+                        <div class="col-lg-7">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <a class="fontP">Tipo de cuadrante</a>
+                        </div>
+                        <div class="col-lg-7">
+                            <select class="form-control" id="sel1">
+                                <option>Front end</option>
+                                <option>Metodologías</option>
+                                <option>Lenguajes de programación</option>
+                                <option>Testing</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <a class="fontP">Nivel de madurez</a>
+                        </div>
+                        <div class="col-lg-7">
+                            <select class="form-control" id="sel1">
+                                <option>Exploratorio</option>
+                                <option>Básico</option>
+                                <option>Dominado</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <a class="fontP">Mínimo aprendices</a>
+                        </div>
+                        <div class="col-lg-7">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <a class="fontP">Mínimo de guías</a>
+                        </div>
+                        <div class="col-lg-7">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <a class="fontP">Descripción</a>
+                        <textarea class="form-control area" rows="6" id="comment"></textarea>
+                        <br>
+                        <button type="button" class="btn btn-primary button">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
